@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="game, children's game, Harry Potter">
+	<meta name="description" content="HarryPotterGame - children's game of attention. Search for locations from the world of Harry Potter. Find familiar places on the map.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tapestry&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="icon" href="./images/favicon.ico">
+    <title>HarryPotterGame</title>
+</head>
+<body>
+    <div class="screen">
+        <div class="content">
+            <div class="header">
+                <header>
+                    <div class="header-section">
+                        <div class="btn-block"><p class="btn">&#9776; <span class="btn-text">Rules</span></p></div>
+                        <div class="title">
+                            <img src="./images/hat.svg" alt="hat.svg">
+                            <h1>HarryPotterGame</h1>
+                            <img src="./images/snitch.svg" alt="snitch.svg">
+                        </div>
+                        <div class="btn-block"><p class="again">&#8635; <span class="btn-text">Again</span></p></div>
+                    </div>
+                </header>
+            </div>
+            <div class="main">
+                <main>
+                    <div class="main-section">
+                        <img src="./images/map.jpg" class="map hide" alt="map.jpg">
+                        <div class="light">
+                            <img src="./images/map.jpg" class="imgmap" alt="map.jpg" usemap="#usemap">
+                            <map name="usemap" id="imgmap">
+                                <area shape="circle" class="coords1" alt="Whomping Willow">
+                                <area shape="circle" class="coords2" alt="Hippogriff">
+                                <area shape="circle" class="coords3" alt="Express">
+                                <area shape="circle" class="coords4" alt="Gringotts">
+                            </map>
+                        </div>
+                    </div>
+                    <div class="main-section-screen">
+                        <p>Desktop Only Game &#128577;</p>
+                    </div>
+                </main>
+            </div>
+            <div class="footer">
+                <footer>
+                    <div class="footer-section">
+                        <div class="card gringotts">
+                            <p>Gringotts Wizarding Bank</p>
+                        </div>
+                        <div class="card whompingWillow">
+                            <p>Whomping Willow</p>
+                        </div>
+                        <div class="card hippogriff">
+                            <p>Hippogriff</p>
+                        </div>
+                        <div class="card express">
+                            <p>The Great Wizarding Express</p>
+                        </div>
+                    </div>
+                </footer>
+            </div>    
+        </div>
+    </div>
+    <!-- modal-all -->
+    <div class="modal-all modal-active">
+        <div class="modal">
+            <p class="modalX">&#10006;</p>
+            <div class="modal-input">
+                <div class="modal-text">
+                    <p>Rules of the game:</p>
+                    <p>Test your attentiveness and knowledge of the world of Harry Potter. Find and click on the locations below on the map. Good luck!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  contextmenu  -->
+    <div>
+        <div class="menu">
+            <div class="menu-item">
+                <a href='https://www.wizardingworld.com'><p>Resource for inspiration</p></a>
+            </div>
+            <div class="menu-item">
+                <a href='https://www.wizardingworld.com/discover/books'><p>Books from the series</p></a>
+            </div>
+            <hr>
+            <div class="menu-item">
+                <a href='https://www.linkedin.com/in/elena-sloth-71682821a/'><p>My Linkedin</p></a>
+            </div>
+            <div class="menu-item">
+                <a href='https://github.com/ElenaSloth10'><p>My Github</p></a>
+            </div>
+            <hr>
+            <div class="menu-item">
+                <a href='https://harrypotter.fandom.com/wiki/Main_Page'><p>HarryPotterFandom</p></a>
+            </div>
+        </div>
+    </div>        
+    <script src="./code/code.js"></script>
+</body>
+</html>
